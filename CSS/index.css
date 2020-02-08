@@ -1,0 +1,213 @@
+@font-face
+{
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+}
+@font-face
+{
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+    font-family: Montserrat;
+}
+@font-face
+{
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+    font-family: Merriweather;
+}
+@keyframes cloud1{
+    0%{
+        opacity: 0;
+        transform: translate(95vw);
+    }
+    100%{
+        opacity: 2;
+        transform: translateX(-95vw);
+    }
+}
+@keyframes cloud2{
+    0%{
+        opacity: 0;
+        transform: translateX(-95vw);
+    }
+    100%{
+        opacity: 2;
+        transform: translateX(95vw);
+    }
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    text-align: center;
+}
+.home-header
+{
+    background-image: url(../img/background.jpg);
+    height: 95vh;
+    position: relative;
+    overflow: hidden;
+    padding: 5rem;
+}
+.cloud1
+{
+    position: relative;
+    top: 1rem;
+    left: 25rem;
+    animation: cloud1 3s infinite linear;
+}
+.cloud2
+{
+    position: absolute;
+    left: 25rem;
+    top: 10rem;
+    animation: cloud2 3s infinite linear;
+}
+.header-title
+{
+    font-family: Sacramento;
+    font-size: 9rem;
+    color: blue;
+}
+.header-sub
+{
+    font-family: Montserrat;
+    font-size: 3rem;
+    color: white;
+}
+.mountain
+{
+    position: relative;
+    bottom: -10rem;
+}
+.home-section-intro
+{
+    background: linear-gradient(to left, blue, skyblue, skyblue, skyblue, blue);
+    height: 50vh;
+}
+.intro-img
+{
+    padding-top: 3rem;
+    width: 25rem;
+    border-radius: 100%;
+}
+.home-section-skills
+{
+    height: 120vh;
+    background-image: url(../img/background.jpg);
+}
+.skills-img-lorem
+{
+    width: 22rem;
+    height: 25rem;
+    float: left;
+}
+.skills-article-container
+{
+    width: 50%;
+    margin: auto;
+    line-height: 3;
+}
+.skills-title-lorem
+{
+    font-family: Montserrat;
+    font-size: 4rem;
+    color: skyblue;
+}
+.skills-p-lorem
+{
+    font-family: Montserrat;
+    font-size: 2rem;
+    color: white;
+}
+.skill-p-lorem1
+{
+    position: relative;
+    font-family: Montserrat;
+    top: 30px;
+    left: -10rem;
+    color: skyblue;
+    text-align: center;
+    font-size: 4rem;
+}
+.skill-p-lorem3
+{
+    position: relative;
+    font-family: Montserrat;
+    font-weight: bold;
+    top: 30px;
+    color: skyblue;
+    text-align: center;
+    font-size: 2rem;
+}
+.skill-p-lorem4
+{
+    position: relative;
+    font-family: Montserrat;
+    top: 50px;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+.skill-p-lorem2
+{
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: skyblue;
+    font-family: Montserrat;
+    font-size: 2rem;
+}
+.skill-p-lorem5
+{
+    position: relative;
+    font-family: Montserrat;
+    top: 50px;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+.home-footer
+{
+    height: 8vh;
+    background: powderblue;
+}
+.home-footer-lorem1
+{
+    padding-left: 1rem;
+    font-size: 2rem;
+    font-family: Merriweather;
+}
+.home-footer-lorem2
+{
+    padding-left: 1rem;
+    font-size: 2rem;
+    font-family: Merriweather;
+}
+.home-footer-lorem3
+{
+    padding-left: 1rem;
+    font-size: 2rem;
+    font-family: Merriweather;
+}
+.home-footer-lorem4
+{
+    font-family: Merriweather;
+    font-size: 1rem;
+}
+#contact
+{
+    position: relative;
+    top: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Montserrat;
+    height: 5rem;
+    width: 15rem;
+}
